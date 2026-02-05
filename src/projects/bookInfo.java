@@ -4,7 +4,7 @@ public class bookInfo {
     public static void main(String[] args) {
         Book b1 = new Book();
         Book b2 = new Book("title zz","kien",1994);
-        b2.author = "qsdq";
+        b1.author = "qsdq";
         b1.printDetails();
         b2.printDetails();
     }
