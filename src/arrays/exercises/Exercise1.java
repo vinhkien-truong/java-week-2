@@ -12,5 +12,12 @@ public class Exercise1
     public static void main(String[] args)
     {
         // TODO: Implement exercise
+        int[] nums = {3,5,9,4,2};
+        int total = 0;
+        for (int num : nums){
+            System.out.print(num + " ");
+            total += num;
+        }
+        System.out.println("\ntotal : " + total);
     }
 }
