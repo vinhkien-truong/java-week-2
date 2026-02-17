@@ -21,5 +21,9 @@ public class Example2
             }
             System.out.println();
         }
+        for (int mat : matrix[2]) 
+        {
+            System.out.print(mat + " ");
+        }
     }
 }

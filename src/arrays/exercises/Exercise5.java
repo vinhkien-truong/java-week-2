@@ -37,7 +37,7 @@ public class Exercise5
                 break;
             }
         }
-        if (index != -1)
+        if (index >-1)
             System.out.println("Element found at index " + index);
         else
             System.out.println("Element not found");

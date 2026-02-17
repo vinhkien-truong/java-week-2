@@ -13,7 +13,7 @@ public class Exercise3
     public static void main(String[] args)
     {
         // TODO: Implement exercise
-                int[][] jagged = new int[3][];
+        int[][] jagged = new int[3][];
         jagged[0] = new int[]{1, 3, 4};
         jagged[1] = new int[]{6, 9};
         jagged[2] = new int[]{7};

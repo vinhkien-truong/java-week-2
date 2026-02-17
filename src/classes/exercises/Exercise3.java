@@ -12,10 +12,7 @@ public class Exercise3
 {
     public static void main(String[] args)
     {
-        // TODO: Create Bike object and test methods
-        Vehicle v1 = new Vehicle();
         Bike b1 = new Bike();
-        v1.start();
         b1.start();
         b1.ride();
     }

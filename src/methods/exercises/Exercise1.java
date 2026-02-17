@@ -19,7 +19,7 @@ public class Exercise1
         System.out.println("Square of 4 = " + obj.square(4));
 
         // TODO: Call cube() and sayHello() here
-        obj.cube(4);
+        System.out.println("cube of 4 = " + obj.cube(4));
         obj.sayHello("Kien");
 
     }
